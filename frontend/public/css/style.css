@@ -1,0 +1,93 @@
+/**** RESET ****/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**** HEADER ****/
+
+header {
+    display: grid;
+    align-items: center;
+}
+
+nav {
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+    padding: 0%;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(0, 35, 189);
+}
+
+/**** HOME ****/
+
+.container-home {
+    width: 100%;
+    min-height: 100dvh;
+    height: 100%;
+}
+
+.title-home {
+    font-size: 26px;
+    font-style: italic;
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+}
+
+.content-home {
+    display: grid;
+    padding-left: 10px;
+    padding-right: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-home {}
+
+.color-home {}
+
+.name-home {}
+
+.buttons-home {}
+
+.view-button-home {}
+
+.delete-button-home {}
+
+/**** NEW TASK ****/
+
+.title-newtask {
+    font-size: 26px;
+    font-style: italic;
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+}
+
+/**** SETTINGS ****/
+
+.title-settings {
+    font-size: 26px;
+    font-style: italic;
+    display: flex;
+    padding-top: 5px;
+    justify-content: center;
+}

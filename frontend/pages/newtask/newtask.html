@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Tarefa</title>
+    <link rel="stylesheet" href="../../public/css/style.css">
+</head>
+
+<body class="container-newtask">
+    <header>
+        <h1 class="title-newtask">
+            Criar nova Tarefa
+        </h1>
+
+        <nav>
+            <ul>
+                <li><a href="../../public/index.html">Ver Tarefas</a></li>
+                <li><a href="../newtask/newtask.html">Nova Tarefa</a></li>
+                <li><a href="../settings/settings.html">Configurações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="/" id="cardForm">
+            <input type="color" id="cardColor" required>
+            <input type="text" id="cardName" required>
+            <textarea id="cardDescription" required></textarea>
+
+            <button type="submit" id="cardButton">Enviar</button>
+        </form>
+    </main>
+
+    <script src="../../public/js/script.js"></script>
+</body>
+
+</html>
